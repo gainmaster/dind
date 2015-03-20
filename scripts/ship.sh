@@ -18,4 +18,4 @@ if [[ -z $(which docker) ]]; then
     exit 2
 fi
 
-deploy
+ship
