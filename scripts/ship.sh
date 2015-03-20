@@ -14,7 +14,7 @@ ship() {
 }
 
 if [[ -z $(which docker) ]]; then
-    echo "Missing docker client which is required for shiping."
+    echo "Missing docker client which is required for shipping."
     exit 2
 fi
 
