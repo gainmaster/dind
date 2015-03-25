@@ -7,7 +7,7 @@ ENV['VAGRANT_DEFAULT_PROVIDER'] = 'docker'
 
 Vagrant.configure("2") do |config|
 
-  config.vm.define "docker-dind" do |v|
+  config.vm.define "dind" do |v|
     v.vm.provider "docker" do |d|
       # Docker image properties
       d.build_dir       = "."
