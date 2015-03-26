@@ -1,7 +1,8 @@
 .vagrant/
 .git/
 .gitattributes
-.gitignore
+.gitignoret
+test/
 build
 README.md
 Vagrantfile
