@@ -54,7 +54,7 @@ function push {
     sudo docker push $IMAGE_NAME
 }
 
-# Handle user input, if no arguments are given, run all functions.
+# Handle user input, if no argument are given, run all functions.
 # Valid arguments are: make_rootfs, build, test and push
 actions=("$@")
 if [ ${#actions[@]} -eq 0 ]; then
