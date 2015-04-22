@@ -1,4 +1,4 @@
-FROM bachelorthesis/archlinux
+FROM gainmaster/archlinux
 MAINTAINER Tony Hesjevik <tony@hesjevik.no>
 
 RUN pacman-install ca-certificates iptables lxc docker 
